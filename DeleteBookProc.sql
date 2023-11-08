@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE DeleteBook
+	@BookId INT
+AS
+
+	DELETE FROM Book WHERE BookId = @BookId
+GO
